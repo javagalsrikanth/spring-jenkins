@@ -14,13 +14,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringJeninksApplicationTests {
 
-//	public static Logger logger = LoggerFactory.getLogger(SpringJeninksApplicationTests.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringJeninksApplicationTests.class);
 	
 //	@Ignore
 	@Test
 	public void contextLoads() {
 		logger.info("Test Application Started....");
-		logger.info("Test case exceuted Started....");
+		logger.info("Test case exceuted Started... second time.");
 		assertEquals(true, true);
 	}
 
