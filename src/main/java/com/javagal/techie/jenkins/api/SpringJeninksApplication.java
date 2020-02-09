@@ -1,5 +1,7 @@
 package com.javagal.techie.jenkins.api;
 
+import java.util.List;
+
 import javax.annotation.PostConstruct;
 
 import org.slf4j.Logger;
@@ -17,6 +19,7 @@ public class SpringJeninksApplication {
 		logger.info("Application Started....");
 	}
 
+	List<E>;
 	public static void main(String[] args) {
 		logger.info("Application Executed....");
 		logger.info("Added Build PipeLine plug in ............Application Executed....");
