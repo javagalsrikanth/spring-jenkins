@@ -19,6 +19,8 @@ public class SpringJeninksApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application Executed....");
+		logger.info("Added Build PipeLine plug in ............Application Executed....");
+		
 		SpringApplication.run(SpringJeninksApplication.class, args);
 	}
 

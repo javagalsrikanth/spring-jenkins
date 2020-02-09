@@ -20,7 +20,6 @@ public class SpringJeninksApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test Application Started....");
-		logger.info("Test case exceuted Started... second time.");
 		assertEquals(true, true);
 	}
 
